@@ -1,0 +1,34 @@
+{
+  "name": "@joejukan/dns",
+  "version": "0.0.0",
+  "description": "Domain Name Server",
+  "main": "lib/index",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-ts",
+    "build": "tsc",
+    "deploy": "node private/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejukan/dns.git"
+  },
+  "keywords": [
+    "DNS",
+    "Domain",
+    "Name",
+    "Server"
+  ],
+  "author": "Joseph Eniojukan (https://github.com/joejukan)",
+  "license": "ISC",
+  "dependencies": {
+    "@joejukan/web-kit": "0.0.1",
+    "native-dns": "0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "10.5.2",
+    "@types/jasmine": "2.8.8",
+    "jasmine-spec-reporter": "4.2.1",
+    "jasmine-ts": "0.2.1",
+    "sftp-upload": "1.0.0"
+  }
+}

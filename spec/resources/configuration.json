@@ -1,0 +1,33 @@
+{
+    "address": "127.0.0.1",
+    "port": 1053,
+    "ttl": 600,
+    "forwarders": [
+        {
+            "address": "8.8.8.8",
+            "port": 53,
+            "type": "udp"
+        },
+        {
+            "address": "8.8.4.4",
+            "port": 53,
+            "type": "udp"
+        }
+    ],
+    "record": {
+        "A": [
+            {
+                "name": "www.web.com",
+                "address": "192.168.10.1"
+            },
+            {
+                "name": "app.web.com",
+                "address": "192.168.10.2"
+            },
+            {
+                "name": "app.arcanav.com",
+                "address": "192.168.10.3"
+            }
+        ]
+    }
+}

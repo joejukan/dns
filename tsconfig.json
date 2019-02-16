@@ -1,0 +1,16 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "outDir": "./lib",
+      "sourceMap": false,
+      "declaration": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "es5",
+      "lib": [ "es2017", "dom"],
+      "typeRoots": ["node_modules/@types", "types"]
+    },
+    "include": ["src/main.ts", "types/dns.d.ts"],
+    "exclude": ["spec/", "**/*.spec.ts"]
+  }
